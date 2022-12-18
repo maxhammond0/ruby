@@ -1,11 +1,5 @@
-# the_count = [1, 2, 3, 4, 5]
-fruits = ['apples', 'oranges', 'pears', 'apricots']
-# change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
+address = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-fruits.each do |fruit|
-  puts "A fruit of type: #{fruit}"
-end
-
-for i in (1...5) do
-  puts i
-end
+puts address
+new_address = address.reverse
+puts new_address
