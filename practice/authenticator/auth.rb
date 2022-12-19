@@ -39,3 +39,5 @@ while i < 3
   puts
   i += 1
 end
+
+puts 'You have exceeded the number of attempts, exiting' if i == 3
